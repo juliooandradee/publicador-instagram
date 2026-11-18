@@ -1,0 +1,8 @@
+# Segredos e arquivos locais: nunca vão para o Git.
+.env
+.env.*
+!.env.example
+node_modules/
+supabase/.temp/
+supabase/.branches/
+.DS_Store

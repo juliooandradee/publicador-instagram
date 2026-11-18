@@ -1,0 +1,7 @@
+# Configuração mínima para a CLI do Supabase (npx supabase ...).
+project_id = "publicador-instagram"
+
+# A função confere sozinha quem chama: o agendador (segredo próprio), a linha de comando (chave secreta do projeto)
+# e a volta da tela da Meta. Por isso a verificação automática de JWT fica desligada.
+[functions.publicador]
+verify_jwt = false

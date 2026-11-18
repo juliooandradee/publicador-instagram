@@ -1,0 +1,43 @@
+{
+  "name": "publicador-instagram",
+  "version": "1.0.0",
+  "description": "Publicação automática de foto, carrossel e Reels no Instagram pela API oficial da Meta, no seu próprio Supabase. Instalado e usado pelo Claude Code ou pelo Codex.",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "publicador": "bin/publicador.mjs"
+  },
+  "scripts": {
+    "ajuda": "node bin/publicador.mjs ajuda",
+    "preparar": "node bin/publicador.mjs preparar",
+    "supabase:projeto": "node bin/publicador.mjs supabase-projeto",
+    "supabase:instalar": "node bin/publicador.mjs supabase-instalar",
+    "salvar-chave": "node bin/publicador.mjs salvar-chave",
+    "status": "node bin/publicador.mjs status",
+    "configurar": "node bin/publicador.mjs configurar",
+    "conectar": "node bin/publicador.mjs conectar",
+    "conferir": "node bin/publicador.mjs conferir",
+    "publicar": "node bin/publicador.mjs publicar",
+    "testar": "node bin/publicador.mjs testar",
+    "agendar": "node bin/publicador.mjs agendar",
+    "cancelar": "node bin/publicador.mjs cancelar",
+    "fila": "node bin/publicador.mjs fila",
+    "limpar": "node bin/publicador.mjs limpar",
+    "desconectar": "node bin/publicador.mjs desconectar",
+    "test": "node --test --test-concurrency=1 \"tests/*.test.mjs\"",
+    "test:banco": "sh tests/sql/run.sh"
+  },
+  "keywords": [
+    "instagram",
+    "meta",
+    "graph-api",
+    "agendamento",
+    "supabase",
+    "claude-code",
+    "codex"
+  ]
+}
