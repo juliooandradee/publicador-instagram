@@ -30,11 +30,10 @@ Quero instalar o Publicador de Instagram no meu computador.
    git clone https://github.com/juliooandradee/publicador-instagram
    (se a pasta já existir, entre nela e rode git pull).
 2. Abra o arquivo INSTALAR.md dessa pasta e siga do começo ao fim, na ordem.
-3. Faça você tudo o que der pelo terminal. Quando precisar de mim (entrar no Supabase,
-   criar o app na Meta, autorizar o Instagram), me diga exatamente onde clicar e espere.
-4. Nunca me peça a senha do Instagram ou do Facebook. As chaves eu colo no arquivo .env,
-   não aqui no chat.
+3. Faça você tudo o que der pelo terminal. Quando precisar de mim (entrar no Supabase, criar o app na Meta, autorizar o Instagram), me diga exatamente onde clicar e espere.
+4. Nunca me peça a senha do Instagram ou do Facebook. As chaves eu colo no arquivo .env, não aqui no chat.
 5. Não publique nada de verdade sem eu dizer o horário. O primeiro teste é sem publicar.
+6. No fim, instale a skill publicar-instagram para eu pedir publicações de qualquer pasta.
 
 Meu Instagram: @
 ```
